@@ -1,0 +1,141 @@
+
+.logo {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin: 35px;   
+}
+
+.horizontalline{
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin-top: 800px;
+}
+
+.verticalline{
+  margin-left: 350px;
+  margin-top: -121px;
+  width: 5px;
+  height: 126px;
+  background-color: black;
+}
+
+.box{
+  max-width: 10px;
+  width: 100%;
+  margin-left: 12cm;
+  margin-top: -65px;
+}
+
+.box .search-box{
+  height: 80px;
+  max-width: 380px;
+  margin: auto;
+}
+
+.search-box input{
+  position: absolute;
+  height: 5%;
+  width: 50%;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.search-box .icon{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+}
+
+/* button{
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5cm;
+} */
+
+.cart-icon{
+  font-size: 30px;
+  cursor: pointer;
+  height: 70px;
+  margin-left: 35cm;
+  margin-top: -80px
+}
+
+.profile-icon {
+  font-size: 24px;
+  cursor: pointer;
+  height: 66px;
+  margin-left: 38cm;
+  margin-top: -66px
+}
+
+.navbar{
+  height: 70px;
+  background-color: black;
+  margin-top: -25px;
+}
+
+.navbaritem{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.pages{
+  color: white;
+  text-decoration: none;
+}
+
+.imgHomePage{
+  width: 100%;
+}
+
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  justify-content: center;
+  text-align: center;
+}
+
+.HomePageborder{
+  border-style: solid;
+  border-width: large;
+}
+
+.imgGears {
+  position: absolute;
+  z-index: 2;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: -100px;
+  height: 70%;
+  width: 30%;
+}
+
+.logoBottom{
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin: 35px;
+  height: 50px;
+  width: 30px;
+  margin-top: -70px;
+}
+
+.verticallinefooter{
+  margin-left: 250px;
+  width: 5px;
+  height: 100px;
+  background-color: black;
+}
+
+footer{
+
+}
