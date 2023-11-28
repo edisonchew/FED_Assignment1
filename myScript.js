@@ -1,7 +1,7 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// To control the changing of the slides
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
