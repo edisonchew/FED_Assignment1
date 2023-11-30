@@ -121,12 +121,12 @@ p{
 
 .logoBottom{
   display: flex;
-  justify-content: flex-start; 
   align-items: center;
-  margin: 35px;
+  margin: 50px;
   height: 50px;
   width: 30px;
-  margin-top: -80px;
+  margin-top: 50px;
+  margin-left: 670px;
 }
 
 .verticallinefooter{
@@ -246,10 +246,23 @@ p{
 }
 
 .join{
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-top: -30px;
+  margin-right: 820px;
+}
+
+.Opening{
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: -144px;
+  margin-left: 1050px;
+}
+
+.Opening p{
+  text-align: left;
   font-family: serif;
-  font-size: 35px;
-  margin-left: 450px;
-  margin-top: -50px;
 }
 
 .endofpage{
@@ -261,22 +274,40 @@ p{
   margin-bottom: 40px;
 }
 
+.rigorersocial{
+  display: flex;
+  font-size: 20px;
+  margin-top: 500px;
+  margin-left: 1300px;
+}
+
+.emailsearch{
+  display: flex;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.emailsearch img{
+  width: 30px;
+  height: 30px;
+}
+
 .socialmedia{
   display: block;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-left: 50px;
 }
 
 .socialmedia img{
   width: 10%;
-  height: 50%;
-  margin-left: 100px;
+  height: 20%;
+  margin-left: 1300px;
 }
 
 .info{
   font-size: 30px;
-  margin-left: -430px;
-  margin-top: -230px;
+  margin-left: 0px;
+  margin-top: 100px;
 }
 
 .info a{
