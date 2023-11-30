@@ -4,11 +4,108 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="Images/rigorer image.png">
+        <link rel="icon" href="Images/rigorer_image.png">
+        <link rel="stylesheet" href="style.css">
         <title>CONTACT US</title>
     </head>
     <body>
         <div w3-include-html="header.html"></div>
         <script src="w3-include-HTML.js"></script>
+
+        <!--First part of my Contact Us page-->
+        <div class="home">
+            <a href="index.html"><b>HOME/</b></a>
+            <div><b>CONTACT US</b></div>
+        </div>
+        <div class="contactInfo">
+            <b><u>CONTACT US</u></b>
+            <p>Do you have questions or suggestions or need more information about RIGORER? 
+                Get in touch with us and we’ll be glad to help.
+                You may also find answers to frequently asked questions here.</p>
+
+            <div class="horizontalline" style="margin-bottom: 50px;"></div>
+
+            <b>CHAT ONLINE</b>
+            <a href="https://chatting.page/9fonbqtulrwv6f9wdkmeqanr5mrq7qhm"><p><u>Chat with us online</u></p></a>
+
+            <b>SENT US AN EMAIL</b>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWggDcPmVXckMBQRrGlvhcxqzJDRbdfBLMrZllSJkqCFcXCDZSpBnGzKZnKxSvQPxFfsB">
+                <p><u>Contact@rigorersingapore.com</u></p>
+            </a>
+
+            <b>WHATSAPP</b>
+            <a href="https://api.whatsapp.com/send/?phone=6581809323&text&type=phone_number&app_absent=0">
+                <p><u>https://wa.me/6581809323</u></p>
+            </a>
+
+            <b>SEND US A MESSAGE</b>
+            <form class="contactform">
+                <label for="name">NAME:</label>
+                <input type="text" placeholder="Enter you name" name="NAME:" required>
+
+                <label for="email">EMAIL:</label>
+                <input type="email" placeholder="Enter you email" name="EMAIL:" required>
+
+                <label for="message">MESSAGE:</label>
+                <textarea name="message" id="message" cols="5" rows="5" placeholder="Enter your comments/message"></textarea>
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </div>
+
+        <!-- This part is will be the footer at the home page -->
+        <div class="footer">
+            <div class="horizontalline" ></div>
+            <div class="logoBottom">
+                <img src="images/logo2018_Crop_170x.png" alt="Rigorer" style="width: 250px">
+            </div>
+            <div class="joinHours">
+                <div class="join">
+                    <u><b>JOIN OUR FAMILY!</b></u>
+                    <p style="text-align: left; font-size: 20px;">Be the first to get all the latest products & deals, with special sneak peaks 
+                    of upcoming events and information sent right to your inbox. Be a part of the <b>RIGORER</b> family today!</p>
+                </div>
+                <div class="Opening">
+                    <u><b>OPENING HOURS</b></u>
+                    <p><b>Monday - Friday: 11am to 7pm</b></p>
+                    <p><b>Saturday - Sunday: Closed</b></p>
+                </div>
+            </div>
+            <form class="emailsearch">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="icon"></label>
+                <a href="index.html"><button type="submit"><img src="Images/542638.png" alt="Email"></button></a>
+            </form>
+            <div class="footerInfo">
+                <div class="info">
+                    <u><b>INFORMATION</b></u>
+                    <ul>
+                        <li><a href="AboutUs.html" class="infoItems">About Us</a></li>
+                        <li><a href="ContactUs.html" class="infoItems">Contact Us</a></li>
+                        <li><a href="Article.html" class="infoItems">Articles</a></li>
+                        <li><a href="ShippingPolicy.html" class="infoItems">Shipping Policy</a></li>
+                        <li><a href="Returns&Exchange.html" class="infoItems">Return & Exchange</a></li>
+                    </ul>
+                </div>
+                <div class="socialmedia">
+                    <u><b>Rigorer Socials</b></u>
+                    <div class="socialicon">
+                        <a href="https://www.instagram.com/rigorer.sg/?hl=en"><img src="Images/1384089.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/rigorer.sg/"><img src="Images/2175193.png" alt="Facebook"></a>
+                    </div>
+                </div>
+                <div class="shop">
+                    <u><b>SHOP</b></u>
+                    <ul>
+                        <li><a href="#" class="apparelitems">Apparel</a></li>
+                        <li><a href="NewArrivalsPage.html" class="apparelitems">New Arrivals</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="endofpage">
+                ©2020 RIGORER SINGAPORE.ALL RIGHTS RESERVED. | PRIVACY POLICY | TERMS OF SERVICE
+            </div>
+        </div>
     </body>
 </html>
