@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="icon" href="Images/8017f92e7d6f6055a02ad4c22cb47f45.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/rigorer_image.png">
         <title>Edison's Website Revamp (Rigorer)</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
@@ -27,12 +28,12 @@
 
         <!-- This part is for shopping cart icon at the home page -->
         <div class="cart-icon">
-            &#128722;
+            <a href="CartPage.html"><img src="Images/1413908.png" alt="Cart"><p>Cart</p></a>
         </div>
 
         <!-- This part is for profile icon at the home page -->
         <div class="profile-icon">
-            &#128100; <!--change to picture-->
+            <a href="LoginPage.html"><img src="Images/3106921.png" alt="profile"><p>Login/Sign Up</p></a>
         </div>
 
         <!-- This part is navigation bar with all my pages at the home page -->
@@ -136,38 +137,49 @@
             <div class="logoBottom">
                 <img src="images/logo2018_Crop_170x.png" alt="Rigorer" style="width: 250px">
             </div>
-            <div class="join">
-                <u><b>JOIN OUR FAMILY!</b></u>
-                <p style="text-align: left; font-size: 20px;">Be the first to get all the latest products & deals, with special sneak peaks 
-                of upcoming events and information sent right to your inbox. Be a part of the <b>RIGORER</b> family today!</p>
-            </div>
-            <div class="Opening">
-                <u><b>OPENING HOURS</b></u>
-                <p><b>Monday - Friday: 11am to 7pm</b></p>
-                <p><b>Saturday - Sunday: Closed</b></p>
+            <div class="joinHours">
+                <div class="join">
+                    <u><b>JOIN OUR FAMILY!</b></u>
+                    <p style="text-align: left; font-size: 20px;">Be the first to get all the latest products & deals, with special sneak peaks 
+                    of upcoming events and information sent right to your inbox. Be a part of the <b>RIGORER</b> family today!</p>
+                </div>
+                <div class="Opening">
+                    <u><b>OPENING HOURS</b></u>
+                    <p><b>Monday - Friday: 11am to 7pm</b></p>
+                    <p><b>Saturday - Sunday: Closed</b></p>
+                </div>
             </div>
             <div class="emailsearch">
-                <input type="text" id="emailInput" placeholder="Enter your email" required 
-                oninvalid="this.setCustomValidaity('Please enter your email')"
-                oninput="this.setCustomValidaity('')">
+                <input type="text" id="emailInput" placeholder="Enter your email" required>
                 <label for="icon"></label>
-                <button type="submit"><img src="Images/542638.png" alt="Email"></button>
+                <a href="index.html"><button type="submit"><img src="Images/542638.png" alt="Email"></button></a>
             </div>
-            <div class="rigorersocial"><b>Rigorer Socials</b></div>
-            <div class="socialmedia">
-                <a href="https://www.instagram.com/rigorer.sg/?hl=en"><img src="Images/1384089.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/rigorer.sg/"><img src="Images/2175193.png" alt="Facebook"></a>
+            <div class="footerInfo">
+                <div class="info">
+                    <u><b>INFORMATION</b></u>
+                    <a href="AboutUs.html">About Us</a>
+                    <a href="ContactUs.html">Contact Us</a>
+                    <a href="ShippingPolicy.html">Shipping Policy</a>
+                    <a href="Returns&Exchange.html">Returns & Exchange</a>
+                </div>
+                <div class="socialmedia">
+                    <u><b>Rigorer Socials</b></u>
+                    <div class="socialicon">
+                        <a href="https://www.instagram.com/rigorer.sg/?hl=en"><img src="Images/1384089.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/rigorer.sg/"><img src="Images/2175193.png" alt="Facebook"></a>
+                    </div>
+                </div>
+                <div class="shop">
+                    <u><b>Shop</b></u>
+                    <ul>
+                        <li><a href="#" class="apparelitems">Apparel</a></li>
+                        <li><a href="NewArrivalsPage.html" class="apparelitems">New Arrivals</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="info">
-                <u><b>INFORMATION</b></u>
-                <a href="AboutUs.html">About Us</a>
-                <a href="ContactUs.html">Contact Us</a>
-                <a href="ShippingPolicy.html">Shipping Policy</a>
-                <a href="Returns&Exchange.html">Returns & Exchange</a>
+            <div class="endofpage">
+                ©2020 RIGORER SINGAPORE.ALL RIGHTS RESERVED. | PRIVACY POLICY | TERMS OF SERVICE
             </div>
-        </div>
-        <div class="endofpage">
-            ©2020 RIGORER SINGAPORE.ALL RIGHTS RESERVED. | PRIVACY POLICY | TERMS OF SERVICE
         </div>
     </body>
 </html>

@@ -32,21 +32,3 @@ window.onload = function () {
     showSlides(slideIndex);
 }
 
-
-//These code will be for the entering of email
-function validateEmail() {
-  var emailInput = document.getElementById('emailInput');
-  var email = emailInput.value;
-
-  // Simple email validation using a regular expression
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  if (emailRegex.test(email)) {
-      alert('Email entered successfully: ' + email);
-      // You can add additional actions here, e.g., sending the email
-  } else {
-      // Custom error message for invalid email format
-      emailInput.setCustomValidity('Please enter a valid email');
-      emailInput.reportValidity();
-  }
-}
