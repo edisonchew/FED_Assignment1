@@ -6,10 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="Images/rigorer_image.png">
         <title>NewArrivalsPage</title>
+        <script src="Checkout.js" async></script>
     </head>
     <body>
         <div w3-include-html="header.html"></div>
         <script src="w3-include-HTML.js"></script>
-        
+
+        <div class="cartDetails">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartDetailsInfo">
+                            <img src="Images/adroit-youth-t-shirt-merchandise-rigorer-xs-black-200787_360x.png" alt="">
+                            <div>
+                                <p>ADROIT YOUTH T-SHIRT</p>
+                                <p style="margin-left: -120px;">Price: $50.00</p>
+                                <br>
+                                <button class="btn-danger" type="button">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></input></td>
+                    <td>$50.00</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
